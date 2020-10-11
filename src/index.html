@@ -1,0 +1,46 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://cdn.muicss.com/mui-latest/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="static/style.css" rel="stylesheet" type="text/css" /> -->
+    <script src="http://cdn.muicss.com/mui-latest/js/mui.min.js"></script>
+    <title>Вопросы</title>
+  </head>
+  <body>
+    <button class="mui-btn mui-btn--raised floating-btn">Посотреть все вопросы</button>
+    <div id="sidebar">
+      <div class="mui--text-display1 mui--align-vertical">Вопросы</div>
+    </div>
+    <div id="content" class="mui-container-fluid">
+      <div class="mui-row">
+        <div class="mui-col-sm-10 mui-col-sm-offset-1">
+          <br>
+          <br>
+          <div class="mui--text-black-54 mui--text-body2">Задать мне вопрос</div>
+          <div class="mui-divider"></div>
+          <br>
+          <form class="mui-form">
+            <div class="mui-textfield">
+              <input type="text" placeholder="Ваш вопрос ?" id="question-input" >
+            </div>
+            <button type="submit" class="mui-btn mui-btn--raised" id="question-button" disabled>Спросить</button>
+          </form>
+          <br>
+          <br>
+          <div class="mui--text-black-54 mui--text-body2">Ваши вопросы</div>
+          <div class="mui-divider"></div>
+          <br>
+          <div class="questions">
+            <div class="list"></div>
+          </div>
+          
+            <br>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
